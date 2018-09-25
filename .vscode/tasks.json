@@ -9,7 +9,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g","-o","Executable_Files\\${fileBasenameNoExtension}","${fileBasename}"
+                "-g","-o","Executable_Files\\${fileBasenameNoExtension}.exe","${fileBasename}"
             ],
             "group": {
                 "kind": "build",
