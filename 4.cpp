@@ -27,7 +27,6 @@ int main()
     person p;
     p.getData();
     p.display();
-
     getch();
     return 0;
 }
