@@ -8,7 +8,7 @@ class person
     string name;
     int age;
 
-   public :
+   public:
     void getData()
     {
         cout <<"Enter The Name = ";

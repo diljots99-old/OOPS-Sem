@@ -13,7 +13,7 @@ public:
     greatest()
     {
         cout<<"\t\tGREATEST AMONG THREE NUMBERS\n";
-        cout<<"Enter three numbers Respectively (Each Seprater By Space)\n";
+        cout<<"Enter three numbers Respectively (Each Seprated By Space)\n";
         cin>>num1>>num2>>num3;
         if((num1>num2)&&(num1>num3))
             MAX=num1;
