@@ -1,5 +1,5 @@
 /*
-*Largest of the two no.s using functions
+*Largest of the two Numbers using functions
 */
 #include "iostream"
 
