@@ -8,7 +8,7 @@ using namespace std;
 int main()  
 {  
     int a[128], n, i,j;    
-    cout<<"\nEnter the number to convert: ";    
+    cout<<"CONVERT DECIMAL TO BINARYS\nEnter the number: ";    
     cin>>n;    
     for(i=0; n>0; i++)    
     {    
@@ -24,7 +24,6 @@ int main()
     for(i=0;i<(sizeof(b)/sizeof(b[0]));i++)
     {
         cout<<b[i];
-        
     }
     cout<<"\n";    
     system("pause");
