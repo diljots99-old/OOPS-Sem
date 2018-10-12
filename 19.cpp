@@ -18,5 +18,6 @@ int main()
     cout<<"SUM OF THREE NUMBERS USING FUNCTION\n Enter the number :-";
     cin>>num1>>num2>>num3;
     cout<<"Result :- " <<sum(num1,num2,num3);
+    system("pause");
     return 0;
 }
