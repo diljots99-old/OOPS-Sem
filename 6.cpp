@@ -21,7 +21,6 @@ class calculator
             {
                 case '+':cout<<"\nResult := "<<num1+num2<<endl;
                         break;
-                        
                 case '-':cout<<"\nResult := "<<num1-num2<<endl;
                         break;
                 case '/':cout<<"\nResult := "<<num1/num2<<endl;
