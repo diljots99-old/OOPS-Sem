@@ -1,5 +1,5 @@
 /*
-*To find the no. is even or odd.
+*To find the no. is even or odd
 */
 #include "iostream"
 
@@ -20,7 +20,7 @@ class evenOdd
         {
             {
             cout<<number<<" is odd\n";
-        }
+            }
 
         }
 
