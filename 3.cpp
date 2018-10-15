@@ -1,4 +1,6 @@
-//Table Of Given number
+/*
+*Table Of Given number
+*/
 #include "iostream"
 #include "conio.h"
 
