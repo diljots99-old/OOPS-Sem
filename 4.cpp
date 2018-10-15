@@ -1,4 +1,6 @@
-//cin & cout Functions
+/*
+*cin & cout Functions using classes
+*/
 #include "iostream"
 #include "conio.h"
 
