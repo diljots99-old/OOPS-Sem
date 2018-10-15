@@ -1,5 +1,5 @@
 /*
-*Sum of Digits using do while
+*Sum of Digits using do while.
 */
 #include "iostream"
 #include "conio.h"
