@@ -1,5 +1,5 @@
 /*
-* To find greatest among three integers and output the largest integer.
+* To find greatest among three integers and output the largest integer
 */
 #include "iostream"
 
