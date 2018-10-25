@@ -1,34 +1,35 @@
 /*
-*cin & cout Functions using classes
+*implementation of class and object
 */
 #include "iostream"
-#include "conio.h"
 
 using namespace std;
-class person
+
+class person //new class is created
 {
-    string name;
-    int age;
+    string name;//Member Variable
+    int age;//Member Variable
 
    public:
-    void getData()
+    void getData()//Member Function
     {
         cout <<"Enter The Name = ";
         cin>>name;
         cout<<"Enter Age = ";
         cin>>age;
     }
-    void display()
+    void display()//Member Function
     {
-        cout<<"Name = "<<name<<"\nAge ="<<age;
+        cout<<"Name = "<<name<<"\nAge ="<<age<<endl;
     }
 } ;
 
 int main()
 {
-    person p;
+    person p;//object of class is created
     p.getData();
+    cout<<"\n You Enterd \n";
     p.display();
-    getch();
+    system("pause");
     return 0;
 }

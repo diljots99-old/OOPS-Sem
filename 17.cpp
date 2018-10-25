@@ -11,13 +11,16 @@ void inline cube(int n)
     rst=n*n*n;
     cout<<"The Cube of "<<n<<" is "<< rst<<endl;
 }
- 
+
 int main()
 {
     int number;
-    cout<<"CUBE OF GIVEN NUMBER\n Enter the Number :-";
+    cout<<"CUBE TILL GIVEN NUMBER\n Enter the Number :-";
     cin>>number;
-    cube(number);
+    for(int i =1;i<=number;i++)
+    {
+        cube(i);
+    }
     system("pause");
-    return 0; 
+    return 0;
 }

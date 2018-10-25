@@ -2,12 +2,13 @@
 *Convert Decimal To Binary
 */
 #include "iostream"
+#define SIZE 500
 
 using namespace std;  
 
 int main()  
 {  
-    int a[128], n, i,j;    
+    int a[SIZE], n, i,j;    
     cout<<"CONVERT DECIMAL TO BINARYS\nEnter the number: ";    
     cin>>n;    
     for(i=0; n>0; i++)    

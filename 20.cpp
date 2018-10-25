@@ -17,7 +17,7 @@ int main()
     int a;
     cout<<"FACTORIAL USING RECURESIVE FUNCTIONS \n Enter a Number :- ";
     cin>>a;
-    cout<<Factorial(a)<<endl;
+    cout<<"\nFactorial of "<<a<<" is "<<Factorial(a)<<endl;
     system("pause");
     return 0;
 }
